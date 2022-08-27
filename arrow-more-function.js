@@ -67,6 +67,16 @@ console.log(result);
  const bigEven = marks.filter(m => m > 20 && m % 2 === 0)
  console.log(bigEven);
 
- 
+
  // 2 == '2'  //true // double equal er kaj holo just value chek kora
  // 2 === '2'  //false  // threeple equal er kaj holo value and data type  check kora.
+
+ const squar = (n => n ** 2);
+ console.log(squar(4))
+
+
+ const squar2 = n => {
+    return n.map(item => item ** 2)
+ }
+ const y = [3, 4, 2, 8];
+ console.log(squar2(y))
